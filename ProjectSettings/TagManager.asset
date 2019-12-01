@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Pipe
+  - Canvas
+  - Pipe(0,2)
+  - Pipe(1,2)
+  - Pipe(2,2)
+  - Pipe(0,1)
+  - Pipe(1,1)
+  - Pipe(2,1)
+  - Pipe(0,0)
+  - Pipe(1,0)
+  - Pipe(2,0)
+  - Start
+  - End
+  - SoundManager
+  - Statue
+  - HACK_DOOR
+  - Hack_Door
+  - Static_Guard
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Movable
+  - Props
+  - Inactive
+  - Wall
+  - Player
+  - Enemy
+  - Interactive
+  - Hackable
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: PlayerSort
+    uniqueID: 398829749
+    locked: 0

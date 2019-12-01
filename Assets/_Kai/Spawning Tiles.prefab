@@ -1,0 +1,1089 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1163485475549752}
+  m_IsPrefabParent: 1
+--- !u!1 &1163485475549752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4704892818893258}
+  - component: {fileID: 114896924883799062}
+  m_Layer: 0
+  m_Name: Spawning Tiles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4704892818893258
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1163485475549752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.84, y: -2.14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114896924883799062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1163485475549752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55e926bf1c8151e4595a4e77b2c9b89e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstBlockx: -9
+  firstBlocky: 0
+  xInc: 0.62
+  yInc: 0.312
+  PropInc: 0.46
+  PlayerSpawnX: 11
+  PlayerSpawnY: 0
+  tileType:
+  - {fileID: 1929933998464404, guid: f32fff5cfdf190f40a587aacb809bbe9, type: 2}
+  - {fileID: 1991067543797944, guid: 972acb4499bb28c4b98d538876754da6, type: 2}
+  - {fileID: 1506036247873900, guid: 9fe1433eb3f71b14795549f0a652dfb6, type: 2}
+  - {fileID: 1064349111098058, guid: e679ec1f8defd434b90a7e24f5efedbd, type: 2}
+  - {fileID: 1727872274807432, guid: e35748e47cbebe34a89013a376c3487a, type: 2}
+  - {fileID: 1555544506358464, guid: 5e755f998dd6bc7488ee069da78b5b0e, type: 2}
+  AvailableTiles: []
+  SortingGroup: []
+  LayerAmount: 
+  Player: {fileID: 0}
+  SG: {fileID: 1067093254966486, guid: dcd89beaadc0b224597dfc5904e19ad4, type: 2}
+  inactive: {fileID: 0}
+  rows:
+  - Name: 
+    typeBlock: 0000000004000000
+    amount: 0300000007000000
+    area: 0000000001000000
+  - Name: 
+    typeBlock: 0000000004000000
+    amount: 0300000007000000
+    area: 0000000001000000
+  - Name: 
+    typeBlock: 0000000004000000
+    amount: 0300000007000000
+    area: 0000000001000000
+  - Name: 
+    typeBlock: 0000000004000000
+    amount: 0300000007000000
+    area: 0000000001000000
+  - Name: 
+    typeBlock: 0000000004000000
+    amount: 0300000007000000
+    area: 0000000001000000
+  - Name: 
+    typeBlock: 0000000004000000
+    amount: 0300000007000000
+    area: 0000000001000000
+  - Name: 
+    typeBlock: 0000000004000000
+    amount: 0300000007000000
+    area: 0000000001000000
+  - Name: 
+    typeBlock: 020000000100000005000000
+    amount: 0a0000000700000004000000
+    area: 050000000300000002000000
+  - Name: 
+    typeBlock: 020000000100000005000000
+    amount: 0a0000000700000004000000
+    area: 050000000300000002000000
+  - Name: 
+    typeBlock: 020000000100000005000000
+    amount: 0a0000000700000004000000
+    area: 050000000300000002000000
+  - Name: 
+    typeBlock: 020000000100000005000000
+    amount: 0a0000000700000004000000
+    area: 050000000300000002000000
+  - Name: 
+    typeBlock: 020000000100000005000000
+    amount: 0a0000000700000004000000
+    area: 050000000300000002000000
+  - Name: 
+    typeBlock: 020000000100000005000000
+    amount: 0a0000000700000004000000
+    area: 050000000300000002000000
+  - Name: 
+    typeBlock: 020000000100000005000000
+    amount: 0a0000000700000004000000
+    area: 050000000300000002000000
+  - Name: 
+    typeBlock: 020000000100000005000000
+    amount: 0a0000000700000004000000
+    area: 050000000300000002000000
+  - Name: 
+    typeBlock: 020000000300000005000000
+    amount: 0a0000000700000004000000
+    area: 050000000400000002000000
+  - Name: 
+    typeBlock: 020000000300000005000000
+    amount: 0a0000000700000004000000
+    area: 050000000400000002000000
+  - Name: 
+    typeBlock: 0000000003000000
+    amount: 0a00000007000000
+    area: 0000000004000000
+  - Name: 
+    typeBlock: 0000000003000000
+    amount: 0a00000007000000
+    area: 0000000004000000
+  - Name: 
+    typeBlock: 0000000003000000
+    amount: 0a00000007000000
+    area: 0000000004000000
+  - Name: 
+    typeBlock: 0000000003000000
+    amount: 0a00000007000000
+    area: 0000000004000000
+  - Name: 
+    typeBlock: 0000000003000000
+    amount: 0a00000007000000
+    area: 0000000004000000
+  props:
+  - orderInLayer: 11
+    item: {fileID: 1027984168543014, guid: 82ccdce5b910f9342bb90aa38aa1da13, type: 2}
+    x: 6
+    y: 3
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 3
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 10
+    item: {fileID: 1848186723730028, guid: a76e028259517d2458e31a668b3299d6, type: 2}
+    x: 6
+    y: 4
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 2
+    State: 4
+  - orderInLayer: 5
+    item: {fileID: 1027984168543014, guid: 82ccdce5b910f9342bb90aa38aa1da13, type: 2}
+    x: 6
+    y: 5
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 3
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 4
+    item: {fileID: 1027984168543014, guid: 82ccdce5b910f9342bb90aa38aa1da13, type: 2}
+    x: 6
+    y: 6
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 3
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 3
+    item: {fileID: 1027984168543014, guid: 82ccdce5b910f9342bb90aa38aa1da13, type: 2}
+    x: 6
+    y: 7
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 3
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 2
+    item: {fileID: 1027984168543014, guid: 82ccdce5b910f9342bb90aa38aa1da13, type: 2}
+    x: 6
+    y: 8
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 3
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 1
+    item: {fileID: 1027984168543014, guid: 82ccdce5b910f9342bb90aa38aa1da13, type: 2}
+    x: 6
+    y: 9
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 3
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 10
+    item: {fileID: 1165553776990658, guid: 40ae1b458a7744c4194de0e497f1840d, type: 2}
+    x: 12
+    y: 10
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 6
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: 4
+  - orderInLayer: 3
+    item: {fileID: 1278530340135746, guid: 9c616eba3c9b3884c9c5513c7b10f485, type: 2}
+    x: 7
+    y: 10
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 4
+    item: {fileID: 1278530340135746, guid: 9c616eba3c9b3884c9c5513c7b10f485, type: 2}
+    x: 8
+    y: 10
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 5
+    item: {fileID: 1278530340135746, guid: 9c616eba3c9b3884c9c5513c7b10f485, type: 2}
+    x: 9
+    y: 10
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 6
+    item: {fileID: 1278530340135746, guid: 9c616eba3c9b3884c9c5513c7b10f485, type: 2}
+    x: 10
+    y: 10
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 7
+    item: {fileID: 1278530340135746, guid: 9c616eba3c9b3884c9c5513c7b10f485, type: 2}
+    x: 11
+    y: 10
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 11
+    item: {fileID: 1278530340135746, guid: 9c616eba3c9b3884c9c5513c7b10f485, type: 2}
+    x: 13
+    y: 10
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 12
+    item: {fileID: 1278530340135746, guid: 9c616eba3c9b3884c9c5513c7b10f485, type: 2}
+    x: 14
+    y: 10
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 32
+    item: {fileID: 1278530340135746, guid: 9c616eba3c9b3884c9c5513c7b10f485, type: 2}
+    x: 15
+    y: 10
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 100
+    item: {fileID: 1165553776990658, guid: 40ae1b458a7744c4194de0e497f1840d, type: 2}
+    x: 16
+    y: 10
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 6
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: 4
+  - orderInLayer: 31
+    item: {fileID: 1027984168543014, guid: 82ccdce5b910f9342bb90aa38aa1da13, type: 2}
+    x: 15
+    y: 11
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 30
+    item: {fileID: 1027984168543014, guid: 82ccdce5b910f9342bb90aa38aa1da13, type: 2}
+    x: 15
+    y: 12
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 29
+    item: {fileID: 1027984168543014, guid: 82ccdce5b910f9342bb90aa38aa1da13, type: 2}
+    x: 15
+    y: 13
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 28
+    item: {fileID: 1027984168543014, guid: 82ccdce5b910f9342bb90aa38aa1da13, type: 2}
+    x: 15
+    y: 14
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 27
+    item: {fileID: 1027984168543014, guid: 82ccdce5b910f9342bb90aa38aa1da13, type: 2}
+    x: 15
+    y: 15
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 26
+    item: {fileID: 1027984168543014, guid: 82ccdce5b910f9342bb90aa38aa1da13, type: 2}
+    x: 15
+    y: 16
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 100
+    item: {fileID: 1036875392218222, guid: 37fdbaa31f973fb489d6e19238f8ff08, type: 2}
+    x: 16
+    y: 16
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 20
+    item: {fileID: 1165553776990658, guid: 40ae1b458a7744c4194de0e497f1840d, type: 2}
+    x: 9
+    y: 17
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: 4
+  - orderInLayer: 18
+    item: {fileID: 1278530340135746, guid: 9c616eba3c9b3884c9c5513c7b10f485, type: 2}
+    x: 7
+    y: 17
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 19
+    item: {fileID: 1278530340135746, guid: 9c616eba3c9b3884c9c5513c7b10f485, type: 2}
+    x: 8
+    y: 17
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 21
+    item: {fileID: 1278530340135746, guid: 9c616eba3c9b3884c9c5513c7b10f485, type: 2}
+    x: 10
+    y: 17
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 22
+    item: {fileID: 1278530340135746, guid: 9c616eba3c9b3884c9c5513c7b10f485, type: 2}
+    x: 11
+    y: 17
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 23
+    item: {fileID: 1278530340135746, guid: 9c616eba3c9b3884c9c5513c7b10f485, type: 2}
+    x: 12
+    y: 17
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 24
+    item: {fileID: 1278530340135746, guid: 9c616eba3c9b3884c9c5513c7b10f485, type: 2}
+    x: 13
+    y: 17
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 25
+    item: {fileID: 1278530340135746, guid: 9c616eba3c9b3884c9c5513c7b10f485, type: 2}
+    x: 14
+    y: 17
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1950896680252110, guid: 5ed954334cc642d4281dca8d62e0c54a, type: 2}
+    x: 15
+    y: 19
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1396857167534578, guid: 280cbc9a3b8a0734fbdcd36f897d94af, type: 2}
+    x: 15
+    y: 18
+    IsTransparent: 0
+    customLayer: 1
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1400099797364512, guid: 33dce6ced9edb1f44b63398d42c0d40c, type: 2}
+    x: 19
+    y: 13
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1067566804350676, guid: 50205635e8922a84cbc773f960578665, type: 2}
+    x: 10
+    y: 0
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1396857167534578, guid: 280cbc9a3b8a0734fbdcd36f897d94af, type: 2}
+    x: 9
+    y: 0
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1067566804350676, guid: 50205635e8922a84cbc773f960578665, type: 2}
+    x: 14
+    y: 0
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1396857167534578, guid: 280cbc9a3b8a0734fbdcd36f897d94af, type: 2}
+    x: 13
+    y: 0
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 1
+    item: {fileID: 1945159939815236, guid: 0dbaf4be312536840b7f2e0677108f20, type: 2}
+    x: 7
+    y: 20
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 2
+    item: {fileID: 1945159939815236, guid: 0dbaf4be312536840b7f2e0677108f20, type: 2}
+    x: 8
+    y: 20
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 3
+    item: {fileID: 1945159939815236, guid: 0dbaf4be312536840b7f2e0677108f20, type: 2}
+    x: 9
+    y: 20
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 4
+    item: {fileID: 1945159939815236, guid: 0dbaf4be312536840b7f2e0677108f20, type: 2}
+    x: 10
+    y: 20
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 5
+    item: {fileID: 1945159939815236, guid: 0dbaf4be312536840b7f2e0677108f20, type: 2}
+    x: 11
+    y: 20
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 6
+    item: {fileID: 1945159939815236, guid: 0dbaf4be312536840b7f2e0677108f20, type: 2}
+    x: 12
+    y: 20
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 7
+    item: {fileID: 1945159939815236, guid: 0dbaf4be312536840b7f2e0677108f20, type: 2}
+    x: 13
+    y: 20
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 1
+    item: {fileID: 1383425991282360, guid: 020b085454a5a0540a12fb5c0981f957, type: 2}
+    x: 2
+    y: 8
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 1
+    item: {fileID: 1396857167534578, guid: 280cbc9a3b8a0734fbdcd36f897d94af, type: 2}
+    x: 3
+    y: 9
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 1
+    item: {fileID: 1396857167534578, guid: 280cbc9a3b8a0734fbdcd36f897d94af, type: 2}
+    x: 3
+    y: 8
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 1
+    item: {fileID: 1396857167534578, guid: 280cbc9a3b8a0734fbdcd36f897d94af, type: 2}
+    x: 3
+    y: 7
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 1
+    item: {fileID: 1396857167534578, guid: 280cbc9a3b8a0734fbdcd36f897d94af, type: 2}
+    x: 2
+    y: 7
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 1
+    item: {fileID: 1396857167534578, guid: 280cbc9a3b8a0734fbdcd36f897d94af, type: 2}
+    x: 1
+    y: 7
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 1
+    item: {fileID: 1396857167534578, guid: 280cbc9a3b8a0734fbdcd36f897d94af, type: 2}
+    x: 1
+    y: 8
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 1
+    item: {fileID: 1396857167534578, guid: 280cbc9a3b8a0734fbdcd36f897d94af, type: 2}
+    x: 1
+    y: 9
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1534645580081250, guid: ce1382c37ebbd4f4489d5038921fd96a, type: 2}
+    x: 2
+    y: 5
+    IsTransparent: 0
+    customLayer: 1
+    Layer: 0
+    customOrderInLayer: 0
+    OrderInLayer: -20
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1630479211862948, guid: 67d981ad998668c4588395ea8f5c1a5c, type: 2}
+    x: 0
+    y: 9
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1780930527283188, guid: c1bcf2c0d5635d34496c67ec9bae7f7f, type: 2}
+    x: 0
+    y: 8
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 6
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1772241915978568, guid: 7157614f0fec50b4883732eb6f66e39f, type: 2}
+    x: 14
+    y: 9
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1686805133077816, guid: c1a1c7afe14a8e84488065569a89df96, type: 2}
+    x: 14
+    y: 7
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 1
+    item: {fileID: 1396857167534578, guid: f23ee2c7f325e6a4b9475d24cc16b942, type: 2}
+    x: 13
+    y: 7
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 1
+    item: {fileID: 1396857167534578, guid: f23ee2c7f325e6a4b9475d24cc16b942, type: 2}
+    x: 12
+    y: 7
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1640086587236870, guid: 15f1cff4c78d8ee46bd4b69c61d1d5cc, type: 2}
+    x: 11
+    y: 9
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 7
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1694212428315512, guid: 176c8611123dc8447ae60bc0f8b3e83f, type: 2}
+    x: 9
+    y: 7
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1079485847685394, guid: 995daa0ec73585244b58b4494b27539c, type: 2}
+    x: 10
+    y: 6
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1396857167534578, guid: f23ee2c7f325e6a4b9475d24cc16b942, type: 2}
+    x: 10
+    y: 5
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1406836683419934, guid: ca5262da966e79048930099b5e1c236e, type: 2}
+    x: 9
+    y: 4
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1841735805457784, guid: 48b4ef17ad37c4b4582ba158ad661a94, type: 2}
+    x: 9
+    y: 2
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 2
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1396857167534578, guid: 280cbc9a3b8a0734fbdcd36f897d94af, type: 2}
+    x: 10
+    y: 2
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 2
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1760108311303294, guid: 7c2a925bf5156834f88f67a8bca49f1e, type: 2}
+    x: 12
+    y: 2
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 2
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1396857167534578, guid: 280cbc9a3b8a0734fbdcd36f897d94af, type: 2}
+    x: 11
+    y: 2
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 2
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1248685806174028, guid: 4632b69db6c5d9d40823fae96c35b5aa, type: 2}
+    x: 14
+    y: 4
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1396857167534578, guid: f23ee2c7f325e6a4b9475d24cc16b942, type: 2}
+    x: 14
+    y: 3
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1396857167534578, guid: f23ee2c7f325e6a4b9475d24cc16b942, type: 2}
+    x: 14
+    y: 5
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1694212428315512, guid: 176c8611123dc8447ae60bc0f8b3e83f, type: 2}
+    x: 9
+    y: 12
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1694212428315512, guid: 176c8611123dc8447ae60bc0f8b3e83f, type: 2}
+    x: 10
+    y: 12
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1694212428315512, guid: 176c8611123dc8447ae60bc0f8b3e83f, type: 2}
+    x: 12
+    y: 12
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1694212428315512, guid: 176c8611123dc8447ae60bc0f8b3e83f, type: 2}
+    x: 13
+    y: 12
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1694212428315512, guid: 176c8611123dc8447ae60bc0f8b3e83f, type: 2}
+    x: 9
+    y: 14
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1694212428315512, guid: 176c8611123dc8447ae60bc0f8b3e83f, type: 2}
+    x: 10
+    y: 14
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1694212428315512, guid: 176c8611123dc8447ae60bc0f8b3e83f, type: 2}
+    x: 12
+    y: 14
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1694212428315512, guid: 176c8611123dc8447ae60bc0f8b3e83f, type: 2}
+    x: 13
+    y: 14
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1809946817622324, guid: 87c5e1a6ebfaaf14fa011e2dbcff906a, type: 2}
+    x: 0
+    y: 4
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 2
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1396857167534578, guid: 280cbc9a3b8a0734fbdcd36f897d94af, type: 2}
+    x: 0
+    y: 5
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 2
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1396857167534578, guid: 280cbc9a3b8a0734fbdcd36f897d94af, type: 2}
+    x: 0
+    y: 3
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 2
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1510968763293446, guid: 0fc5168e1efed7942afffdea5cf7ee19, type: 2}
+    x: 19
+    y: 16
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1510968763293446, guid: 0fc5168e1efed7942afffdea5cf7ee19, type: 2}
+    x: 20
+    y: 16
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1510968763293446, guid: 0fc5168e1efed7942afffdea5cf7ee19, type: 2}
+    x: 21
+    y: 16
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1510968763293446, guid: 0fc5168e1efed7942afffdea5cf7ee19, type: 2}
+    x: 21
+    y: 10
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1510968763293446, guid: 0fc5168e1efed7942afffdea5cf7ee19, type: 2}
+    x: 20
+    y: 10
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  - orderInLayer: 0
+    item: {fileID: 1510968763293446, guid: 0fc5168e1efed7942afffdea5cf7ee19, type: 2}
+    x: 19
+    y: 10
+    IsTransparent: 0
+    customLayer: 0
+    Layer: 1
+    customOrderInLayer: 0
+    OrderInLayer: 0
+    State: -1
+  enemyList:
+  - enemyObject: {fileID: 1792690187683502, guid: c37d59ec765242746963a6a207379573,
+      type: 2}
+    enemyType: 1
+    startingPoint:
+      x: 7
+      y: 11
+      stopTiming: 0
+    navPoints:
+    - x: 7
+      y: 11
+      stopTiming: 10
+    - x: 7
+      y: 16
+      stopTiming: 10
+    - x: 14
+      y: 16
+      stopTiming: 10
+    - x: 14
+      y: 11
+      stopTiming: 10
+    speed: 0.5
+    attackSpeed: 1
+    canReverse: 1
+    fullRound: 0
+    canEnemyStart: 1
